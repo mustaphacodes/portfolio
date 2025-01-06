@@ -1,0 +1,36 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif; /* Example font */
+  }
+
+  body {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color */
+  }
+
+  h1, h2 {
+    font-family: 'Montserrat', sans-serif; /* Example heading font */
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; 
+  }
+
+  img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .section {
+    padding: 50px 0; 
+  }
+
+  .container {
+    max-width: 960px; /* Adjust as needed */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px;
+  }
