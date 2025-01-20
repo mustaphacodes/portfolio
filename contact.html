@@ -49,6 +49,18 @@
     </style> -->
 </head>
 <body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="about.html">About me.</a></li>
+                    <li><a href="skills.html">Skills.</a></li>
+                    <li><a href="portfolio.html">Portfolio.</a></li>
+                    <li><a href="training.html">Training.</a></li>
+                    <li><a href="resources.html">Resources.</a></li>
+                </ul>
+            </nav>
+        </header>
     <h1>Contact Me</h1>
 
     <div class="contact-info">
@@ -67,5 +79,37 @@
 
     <p>Feel free to reach out to me with any questions or inquiries. I'm always happy to connect!</p>
 
+    <h2>Send Me a Message</h2>
+        <form action="submit_form.php" method="POST">
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 Mustapha Sufyan</p>
+                <ul>
+                    <li><a href="" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://mustaphacodes.github.io/portfolio/" target="_blank">GitHub</a></li>
+                    <li><a href="" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+        </footer>
+</main>
 </body>
 </html>
